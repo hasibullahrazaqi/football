@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: rgb(0, 115, 138);
+  height: 100vh; 
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  padding: 10px 30px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+
+#first > button:hover {
+  background-color: rgb(0, 141, 0);
+}
+
+#secon > button:hover {
+  background-color: rgb(255, 255, 0);
+  color: black;
+}
+
+#tirth > button:hover {
+  background-color: rgb(255, 0, 0);
+
+}
